@@ -22,7 +22,7 @@ const EditTaskModal: React.FC<EditTaskModalProps> = ({
       return;
     }
 
-    setIsUpdating(true); // Inicia o indicador de carregamento
+    setIsUpdating(true);
     try {
       await TaskService.updateTask(task.codigo, {
         ...task,

@@ -29,7 +29,7 @@ const LoginPage = () => {
   };
 
   const handleCreateAccount = () => {
-    router.push("/register"); // Redireciona para a página de registro
+    router.push("/register");
   };
 
   return (
