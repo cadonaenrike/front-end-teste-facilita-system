@@ -1,7 +1,7 @@
 import { Login } from "@/interfaces/Login.interface";
 import axios from "axios";
 
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://back-end-teste-facilita-system.vercel.app/";
 
 export const AuthService = {
   login: async (credentials: Login): Promise<void> => {

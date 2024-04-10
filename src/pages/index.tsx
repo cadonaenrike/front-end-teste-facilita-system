@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <button
-            className="text-sm font-medium border-2 border-gray-600 px-4 py-1 bg-red-500 rounded-full text-black hover:text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
+            className="text-sm font-medium border-2 border-red-500 px-4 py-1 rounded-full text-black hover:text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
             onClick={handleLogout}
           >
             Sair

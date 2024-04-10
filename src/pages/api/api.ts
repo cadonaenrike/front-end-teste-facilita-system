@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://back-end-teste-facilita-system.vercel.app/";
 
 const api = axios.create({
   baseURL,
